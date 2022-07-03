@@ -78,7 +78,7 @@
 
     function init_question() {
         $("#question-text").html(questionsObject[questionsOrder[qn]].question);
-        $("#question-number").html("Question "+(qn + 1)+" of "+(questionsOrder.length));
+        $("#question-number").html("문항 "+(questionsOrder.length)+" 중 "+(qn + 1));
 
 
 
@@ -149,7 +149,7 @@
             }
         }
         //return;
-        location.href = ((window.location.hostname == "sapplyvalues.github.io") ? `feedback.html` : `results.html`) + args
+        location.href = ((window.location.hostname == "mirdovkron.github.io") ? `feedback.html` : `results.html`) + args
 
     }
 

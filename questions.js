@@ -24,7 +24,7 @@ questions =  [
     {"id": 22, "question": "숨길 것이 없다면 무서워할 것도 없다.", "effects": {"auth": 1}},
     {"id": 23, "question": "정부는 국민의 일상생활에 덜 관여해야 한다.", "effects": {"auth": -1}},
     {"id": 24, "question": "민주주의 없는 사회는 의미가 없다.", "effects": {"auth": -1}},
-    {"id": 25, "question": "피고인이 범죄를 저질렀더라도 상황에 따라 배심원들이 무죄를 선고할 수 있어야 한다.", "effects": {"auth": -1}},
+    {"id": 25, "question": "보편적 양심과 법이 어긋나는 경우 법을 어기는 행동도 정당화된다.", "effects": {"auth": -1}},
     {"id": 26, "question": "정부가 작을수록 국민은 자유롭다.", "effects": {"auth": -1}},
     {"id": 27, "question": "정부의 역할은 최대 긴급 구조와 법률 집행으로 제한되어야 한다.", "effects": {"auth": -1}},
     {"id": 28, "question": "경찰이 생겨난 본질적인 이유는 시민 보호가 아니라 무력을 통한 현상 유지이다.", "effects": {"auth": -1}},

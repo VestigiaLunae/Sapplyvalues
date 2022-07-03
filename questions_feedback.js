@@ -2,210 +2,210 @@ questions = [
     //Valid questionTypes: customNumber, smallSelection, bigSelection, customText
     {
     "id": 1,
-    "question": "How would you classify yourself as?",
+    "question": "본인의 정치성향이 어떻다고 생각하시나요?",
     "questionType": "smallSelection",
     "answers":[
         {
-        "label": "Authoritarian Left",
+        "label": "좌파 권위주의",
         "color": "#990000",
         "effect": "AuthLeft"
         },
         {
-        "label": "Authoritarian Right",
+        "label": "우파 권위주의",
         "color": "#003399",
         "effect": "AuthRight"
         },
         {
-        "label": "Centrist",
+        "label": "중도",
         "color": "#999999",
         "effect": "Centrist"
         },
         {
-        "label": "Libertarian Left",
+        "label": "좌파 자유주의",
         "color": "#339900",
         "effect": "LibLeft"
         },
         {
-        "label": "Libertarian Right",
+        "label": "우파 자유주의",
         "color": "#999900",
         "effect": "LibRight"
         },
         {
-        "label": "Unaffiliated / Don't know",
+        "label": "없음 / 모르겠음",
         "color": "#999999",
         "effect": null
         }]
     },
     {
     "id": 2,
-    "question": "How would you classify yourself as?",
+    "question": "본인의 정치성향이 어떻다고 생각하시나요?",
     "questionType": "smallSelection",
     "answers":[
         {
-        "label": "Authoritarian",
+        "label": "권위주의",
         "color": "#6d4cb0",
         "effect": "Auth"
         },
         {
-        "label": "Rightist",
+        "label": "우파",
         "color": "#4c96af",
         "effect": "Right"
         },
         {
-        "label": "Centrist",
+        "label": "중도",
         "color": "#999999",
         "effect": "Centrist"
         },
         {
-        "label": "Leftist",
+        "label": "좌파",
         "color": "#af4c4c",
         "effect": "Left"
         },
         {
-        "label": "Libertarian",
+        "label": "자유주의",
         "color": "#4caf50",
         "effect": "Lib"
         },
         {
-        "label": "Unaffiliated / Don't know",
+        "label": "없음 / 모르겠음",
         "color": "#999999",
         "effect": null
         }]
     },
     {
     "id": 3,
-    "question": "How do you view yourself on Culture?",
+    "question": "본인의 사회문화적인 성향이 어떻다고 생각하시나요?",
     "questionType": "smallSelection",
     "answers":[
         {
-        "label": "Very Progressive",
+        "label": "매우 진보적",
         "color": "#1b5e20",
         "effect": 3
         },
         {
-        "label": "Progressive",
+        "label": "진보",
         "color": "#4caf50",
         "effect": 2
         },
         {
-        "label": "Leaning Progressive",
+        "label": "중도 진보",
         "color": "#7ae67e",
         "effect": 1
         },
         {
-        "label": "Neutral",
+        "label": "중도",
         "color": "#a9a9a9",
         "effect": 0
         },
         {
-        "label": "Leaning Conservative",
+        "label": "중도 보수",
         "color": "#7acbe6",
         "effect": -1
         },
         {
-        "label": "Conservative",
+        "label": "보수",
         "color": "#4c96af",
         "effect": -2
         },
         {
-        "label": "Very Conservative",
+        "label": "매우 보수적",
         "color": "#1b4e5e",
         "effect": -3
         },
         {
-        "label": "Don't Know / Refuse",
+        "label": "모르겠음 / 답변 거부",
         "color": "#a9a9a9",
         "effect": null
         }]
     },
     {
     "id": 4,
-    "question": "How do you view yourself on Economics?",
+    "question": "본인의 경제적 성향이 어떻다고 생각하시나요?",
     "questionType": "smallSelection",
     "answers":[
         {
-        "label": "Very Right",
+        "label": "극우",
         "color": "#5e5e1b",
         "effect": 3
         },
         {
-        "label": "Right",
+        "label": "우파",
         "color": "#afaf4c",
         "effect": 2
         },
         {
-        "label": "Leaning Right",
+        "label": "중도 우파",
         "color": "#d1d16d",
         "effect": 1
         },
         {
-        "label": "Neutral",
+        "label": "중도",
         "color": "#a9a9a9",
         "effect": 0
         },
         {
-        "label": "Leaning Left",
+        "label": "중도 좌파",
         "color": "#e67a7a",
         "effect": -1
         },
         {
-        "label": "Left",
+        "label": "좌파",
         "color": "#af4c4c",
         "effect": -2
         },
         {
-        "label": "Very Left",
+        "label": "극좌",
         "color": "#5e1b1b",
         "effect": -3
         },
         {
-        "label": "Don't Know / Refuse",
+        "label": "모르겠음 / 답변 거부",
         "color": "#a9a9a9",
         "effect": null
         }]
     },
     {
     "id": 5,
-    "question": "How do you view yourself on Authority?",
+    "question": "본인의 정치성향이 어떻다고 생각하시나요?",
     "questionType": "smallSelection",
     "answers":[
         {
-        "label": "Very Authoritarian",
+        "label": "매우 권위주의적",
         "color": "#321b5e",
         "effect": 3
         },
         {
-        "label": "Authoritarian",
+        "label": "권위주의적",
         "color": "#6d4cb0",
         "effect": 2
         },
         {
-        "label": "Leaning Authoritarian",
+        "label": "중도 권위주의",
         "color": "#9e7ae6",
         "effect": 1
         },
         {
-        "label": "Neutral",
+        "label": "중도",
         "color": "#a9a9a9",
         "effect": 0
         },
         {
-        "label": "Leaning Libertarian",
+        "label": "중도 자유주의",
         "color": "#7ae683",
         "effect": -1
         },
         {
-        "label": "Libertarian",
+        "label": "자유주의적",
         "color": "#4cb054",
         "effect": -2
         },
         {
-        "label": "Very Libertarian",
+        "label": "매우 자유주의적",
         "color": "#1b5e21",
         "effect": -3
         },
         {
-        "label": "Don't Know / Refuse",
+        "label": "모르겠음 / 답변 ",
         "color": "#a9a9a9",
         "effect": null
         }]

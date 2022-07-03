@@ -36,7 +36,8 @@ p.question {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
-    min-width: 600pt;
+    word-break: keep-all;
+    min-width: 500pt;
     min-height: 144pt;
     background-color: #eeeeee;
     padding: 16pt;

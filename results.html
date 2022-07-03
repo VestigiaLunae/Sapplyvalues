@@ -55,15 +55,15 @@
     
                 var dot = c.getContext("2d");
                 dot.beginPath();
-                dot.arc(1000 + (5000 * (x_axis+10)/20), 5750 - (5000 * (y_axis + 10)/20), 125, 0, 2 * Math.PI);
+                dot.arc(1000 + (5000 * (x_axis+10)/20), 5750 - (5000 * (y_axis + 10)/20), 100, 0, 2 * Math.PI);
                 dot.fillStyle = 'red';
                 dot.fill();
                 dot.stroke();
     
                 var line = c.getContext("2d");
                 line.beginPath();
-                line.moveTo(7500, 5725 - (5000 * (z_axis + 10)/20));
-                line.lineTo(8250, 5725 - (5000 * (z_axis + 10)/20));
+                line.moveTo(7500, 5740 - (5000 * (z_axis + 10)/20));
+                line.lineTo(8250, 5740 - (5000 * (z_axis + 10)/20));
                 line.lineWidth = 30;
                 line.strokeStyle = "red";
                 line.stroke();

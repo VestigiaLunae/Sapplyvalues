@@ -5,7 +5,7 @@ questions =  [
     {"id": 3, "question": "탐욕은 인간의 본성이다.", "effects": {"right": 1}},
     {"id": 4, "question": "19세기 자본주의의 문제점들은 해결되었으므로, 착취라는 용어는 시대에 맞지 않는다.", "effects": {"right": 1}},
     {"id": 5, "question": "공산주의는 현실에서 작동하지 않는 공상적 사상이다.", "effects": {"right": 1}},
-    {"id": 6, "question": "고소득층에 대한 과세는 나쁜 생각이며, 사회에 악영향을 미친다.", "effects": {"right": 1}},
+    {"id": 6, "question": "고소득층에 대한 과세는 나쁜 제도이며, 사회에 악영향을 미친다.", "effects": {"right": 1}},
     {"id": 7, "question": "열심히 일하면 자신의 사회적 계층도 올라갈 수 있다.", "effects": {"right": 1}},
     {"id": 8, "question": "기업과 회사는 신뢰할 수 없으므로 정부에 의한 규제가 필수적이다.", "effects": {"right": -1}},
     {"id": 9, "question": "모든 사회구성원을 부양하는 정부라는 개념은 좋은 생각이다.", "effects": {"right": -1}},

@@ -53,11 +53,11 @@
             var background = new Image();
             background.onload = function() {
                 var c = document.createElement("canvas");
-                c.width = 7400;
-                c.height = 5200;
+                c.width = 9250;
+                c.height = 6500;
                 var ctx = c.getContext("2d");
                 ctx.fillStyle = "#EEEEEE"
-                ctx.fillRect(0, 0, 7400, 5200);
+                ctx.fillRect(0, 0, 9250, 6500);
                 ctx.drawImage(background, 0, 0);
 
                 document.getElementById("banner").src = c.toDataURL();

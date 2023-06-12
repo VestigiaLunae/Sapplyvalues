@@ -47,37 +47,37 @@
             var background = new Image();
             background.onload = function() {
                 var c = document.createElement("canvas");
-                c.width = 9250;
-                c.height = 8000;
+                c.width = 5550;
+                c.height = 4800;
                 var ctx = c.getContext("2d");
                 ctx.fillStyle = "#EEEEEE"
-                ctx.fillRect(0, 0, 9250, 8000);
+                ctx.fillRect(0, 0, 5550, 4800);
                 ctx.drawImage(background, 0, 0);
     
                 var dot = c.getContext("2d");
                 dot.beginPath();
-                dot.arc(1000 + (5000 * (x_axis+10)/20), 5750 - (5000 * (y_axis + 10)/20), 100, 0, 2 * Math.PI);
+                dot.arc(6000 + (3000 * (x_axis+10)/20), 3450 - (3000 * (y_axis + 10)/20), 75, 0, 2 * Math.PI);
                 dot.fillStyle = 'red';
                 dot.fill();
                 dot.stroke();
     
                 var line = c.getContext("2d");
                 line.beginPath();
-                line.moveTo(7500, 5740 - (5000 * (z_axis + 10)/20));
-                line.lineTo(8250, 5740 - (5000 * (z_axis + 10)/20));
-                line.lineWidth = 30;
+                line.moveTo(4500, 3435 - (3000 * (z_axis + 10)/20));
+                line.lineTo(4950, 3435 - (3000 * (z_axis + 10)/20));
+                line.lineWidth = 23;
                 line.strokeStyle = "red";
                 line.stroke();
     
-                ctx.font="250px Montserrat"
+                ctx.font="150px Montserrat"
                 ctx.textAlign="center"
                 ctx.fillStyle="#222222"
-                ctx.fillText("좌파 / 우파 (x): " + x_axis, 3625, 6875)
-                ctx.fillText("권위주의 / 자유주의 (y): " + y_axis, 3625, 7250)
-                ctx.fillText("진보 / 보수 (z): " + z_axis, 3625, 7625)
+                ctx.fillText("좌파 / 우파 (x): " + x_axis, 2175, 4125)
+                ctx.fillText("권위주의 / 자유주의 (y): " + y_axis, 2175, 4350)
+                ctx.fillText("진보 / 보수 (z): " + z_axis, 2175, 4575)
                 ctx.textAlign="right"
-                ctx.font="300px Montserrat"
-                ctx.fillText("politics.conlang.kr", 9100, 7800)
+                ctx.font="180px Montserrat"
+                ctx.fillText("politics.conlang.kr", 5460, 4680)
     
                 document.getElementById("banner").src = c.toDataURL();
             }
